@@ -7,6 +7,6 @@ RUN CGO_ENABLED=0 go build
 
 FROM gcr.io/distroless/static
 
-COPY --from=builder /go/builds/pr-labeler /
+COPY --from=builder /go/builds/gh-release /
 
-ENTRYPOINT ["/pr-labeler"]
+ENTRYPOINT ["/gh-release"]

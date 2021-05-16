@@ -1,7 +1,7 @@
 ---
 # action.yml
 name: 'Github Releaser'
-description: 'Periodically label pull requests based on changed files'
+description: 'Create an github release'
 author: Inhere
 runs:
   using: 'docker'
